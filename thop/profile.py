@@ -12,13 +12,13 @@ register_hooks = {
     nn.Conv3d: count_convNd,
     nn.ConvTranspose2d: count_convtranspose2d,
 
-    nn.BatchNorm1d: count_bn,
-    nn.BatchNorm2d: count_bn,
-    nn.BatchNorm3d: count_bn,
+    #nn.BatchNorm1d: count_bn,
+    #nn.BatchNorm2d: count_bn,
+    #nn.BatchNorm3d: count_bn,
 
-    nn.ReLU: count_relu,
-    nn.ReLU6: count_relu,
-    nn.LeakyReLU: count_relu,
+    #nn.ReLU: count_relu,
+    #nn.ReLU6: count_relu,
+    #nn.LeakyReLU: count_relu,
 
     nn.MaxPool1d: count_maxpool,
     nn.MaxPool2d: count_maxpool,
